@@ -1,8 +1,8 @@
-# Securelyzer 🛡️
+# Securalizer 🛡️
 
 Bismillah, peace and blessings upon our beloved Prophet Muhammad ﷺ
 
-**Securelyzer** is a full security audit tool for **DNS, HTTPS, and email authentication**. It’s fully generic and works against any domain/TLD. Perfect for security audits, pentesting, and quick checks.
+**Securalizer** is a full security audit tool for **DNS, HTTPS, and email authentication**. It’s fully generic and works against any domain/TLD. Perfect for security audits, pentesting, and quick checks.
 
 ---
 
@@ -33,21 +33,21 @@ Bismillah, peace and blessings upon our beloved Prophet Muhammad ﷺ
 ```bash
 git clone git@github.com:ebosnic/securalizer.git
 cd securalizer
-chmod +x securelyzer.sh
+chmod +x securalizer.sh
 
 
 ## Usage
 
 # Basic usage (default resolver 1.1.1.1)
-./securelyzer.sh example.com
+./securalizer.sh example.com
 
 # Custom resolver
-./securelyzer.sh example.com 8.8.8.8
+./securalizer.sh example.com 8.8.8.8
 
 # Custom DKIM selector
-./securelyzer.sh example.com 8.8.8.8 selector1
+./securalizer.sh example.com 8.8.8.8 selector1
 
-Example output
+# Example output
 
 ==============================
  Full Security Audit for bosnic.net
@@ -71,5 +71,11 @@ DMARC: YES ✅
 DKIM (default): YES ✅
 ==============================
 
-License:
+## License
+
 This project is MIT licensed. Use it freely, but remember: Allah is our provider and protector.
+
+## Author
+
+Enes Bosnic – founder of piratesec.com
+
